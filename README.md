@@ -1,31 +1,35 @@
-# Tanggal Otomatis Tanpa Tahun
+# 🗓️ Tanggal Otomatis Tanpa Tahun 🗓️
 
-## Deskripsi
+## 📝 Deskripsi
 
-Program Python ini digunakan untuk menghasilkan rentang tanggal antara dua tanggal yang diberikan oleh pengguna. Program ini akan menampilkan setiap tanggal dalam rentang tersebut, tetapi tanpa menyertakan tahun. Hasilnya akan ditampilkan di konsol dan juga diekspor ke file teks `tanggal.txt`.
+Program ini adalah sebuah skrip Python yang memungkinkan pengguna untuk menghasilkan daftar tanggal antara dua tanggal yang ditentukan. Program ini unik karena hanya menampilkan tanggal dan bulan, tanpa tahun. Daftar tanggal ini akan ditampilkan di terminal serta diekspor ke sebuah file teks bernama `tanggal.txt`.
 
-## Persyaratan Sistem
+## 🛠️ Persyaratan Sistem
 
-- Python 3.x
+- 🐍 Python 3.x 
 
-## Instalasi
+## 📦 Instalasi
 
-Tidak ada pustaka eksternal yang perlu diinstal sebelum menjalankan program ini. Program ini hanya memanfaatkan pustaka bawaan Python.
+Kode ini tidak memerlukan pustaka Python eksternal, jadi Anda cukup perlu Python versi 3.x yang sudah terinstal di komputer Anda.
 
-## Petunjuk Penggunaan
+## 🎯 Cara Menggunakan
 
-1. Clone repositori ini atau unduh kode program.
-2. Buka terminal atau command prompt.
-3. Arahkan ke direktori dimana file program disimpan.
-4. Jalankan program dengan perintah `python nama_file.py`.
-5. Ikuti petunjuk di konsol untuk memasukkan tanggal awal dan akhir dalam format dd-mm-yyyy.
-6. Setelah itu, program akan menampilkan rentang tanggal di konsol dan menyimpannya dalam file `tanggal.txt`.
+1. 📥 Unduh kode program dari GitHub.
+2. 🪟 Buka terminal atau command prompt.
+3. 🗂️ Pindah ke direktori dimana file program berada.
+4. ▶️ Jalankan program dengan menggunakan perintah `python nama_file.py`.
+5. 📝 Saat diminta, masukkan tanggal awal dan akhir dalam format `dd-mm-yyyy`.
+6. 📃 Program akan menampilkan daftar tanggal di konsol dan juga menyimpannya di file teks `tanggal.txt`.
 
-## Penanganan Eror
+## ❗ Penanganan Eror
 
-- Jika Anda memasukkan tanggal dalam format yang salah, program akan memberi tahu Anda untuk memasukkan dalam format dd-mm-yyyy.
-- Jika tanggal awal lebih besar daripada tanggal akhir, program akan memberikan pesan kesalahan.
+- 🛑 Jika Anda memasukkan tanggal dalam format yang salah, program akan memberikan pesan kesalahan dan meminta Anda memasukkan tanggal dalam format `dd-mm-yyyy`.
+- ⚠️ Jika tanggal awal lebih besar dari tanggal akhir, program akan menampilkan pesan kesalahan.
 
-## Kontribusi
+## 👥 Kontribusi
 
-Jika Anda ingin berkontribusi atau menemukan bug, silakan buat issue atau pull request.
+Jika Anda menemukan masalah atau punya usulan fitur, silakan buat "issue" atau "pull request".
+
+## 📜 Lisensi
+
+MIT License
